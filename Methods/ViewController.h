@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+
+-(IBAction)textFieldReturn:(id)sender;
+
 
 @end
 
