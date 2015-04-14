@@ -14,6 +14,7 @@
 		E9A5ED571ADCE40500A743A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A5ED561ADCE40500A743A0 /* Images.xcassets */; };
 		E9A5ED5A1ADCE40500A743A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A5ED581ADCE40500A743A0 /* LaunchScreen.xib */; };
 		E9A5ED661ADCE40500A743A0 /* MethodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A5ED651ADCE40500A743A0 /* MethodsTests.m */; };
+		E9A5ED711ADCE42200A743A0 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A5ED701ADCE42200A743A0 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E9A5ED5F1ADCE40500A743A0 /* MethodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A5ED641ADCE40500A743A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9A5ED651ADCE40500A743A0 /* MethodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodsTests.m; sourceTree = "<group>"; };
+		E9A5ED6F1ADCE42200A743A0 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		E9A5ED701ADCE42200A743A0 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		E9A5ED3D1ADCE40500A743A0 = {
 			isa = PBXGroup;
 			children = (
+				E9A5ED6F1ADCE42200A743A0 /* Car.h */,
+				E9A5ED701ADCE42200A743A0 /* Car.m */,
 				E9A5ED481ADCE40500A743A0 /* Methods */,
 				E9A5ED621ADCE40500A743A0 /* MethodsTests */,
 				E9A5ED471ADCE40500A743A0 /* Products */,
@@ -221,6 +226,7 @@
 			files = (
 				E9A5ED521ADCE40500A743A0 /* ViewController.m in Sources */,
 				E9A5ED4F1ADCE40500A743A0 /* AppDelegate.m in Sources */,
+				E9A5ED711ADCE42200A743A0 /* Car.m in Sources */,
 				E9A5ED4C1ADCE40500A743A0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
